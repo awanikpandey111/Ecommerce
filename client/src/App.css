@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500,600,700|Permanent+Marker&display=swap");
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Permanent Marker", cursive;
+  font-family: "Oswald", sans-serif;
+  color: #384047;
+}
+
+/* form  */
+/*  */
+/*  */
+form {
+  width: 300px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+.form{
+  margin-top: 80px;
+}
+
+h3 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 14px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 20px;
+}
+
+button,
+.btn {
+  color: #000;
+  background-color: #b2bec3;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+legend {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  form {
+    max-width: 480px;
+  }
+}
+
+/* Alert */
+
+.alert {
+  font-size: 12px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+/* product */
+
+.title{
+  font-family: "Permanent Marker", cursive;
+  margin-top: 10px;
+  padding-bottom: 15px;
+}
+
+.card {
+  margin-bottom: 15px;
+}
+
+.card img, .modal-card img {
+  height: 150px;
+  width: 140px;
+  margin: 15px;
+}
+
+.btn {
+  font-size: 16px;
+  width: 100px;
+  margin-right: 5px;
+}
+.btn:hover{
+  background: #000;
+}
+.addtocart {
+  display: flex;
+}
+
+/* navbar */
+
+.navbar-light .navbar-nav .nav-link {
+  color: #2d3436;
+}
+.navbar-brand{
+  font-size: 35px;
+  margin-left: -15px;
+  font-family: "Permanent Marker", cursive;
+}
+
+/* product modal */
+
+.modal-card{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-alert{
+  color: salmon;
+  font-weight: 700;
+}
+/* cart */
+
+.remove{
+  color: rgb(255,0,0);
+}
+/* quantity */
+
+.quantity{
+  border: 2px solid blue;
+  padding: 0px 5px;
+  margin: 5px;
+}
+
+.cart{
+  margin-top: 70px;
+}
+
+.cartlist-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.cart-btn{
+  margin-top: 10px;
+}
+.cart-btn:hover{
+  color: #fff;
+}
+
+/* Footer */
+
+.footer{
+  margin-top: 50px;
+}
+
+.footer .content {
+	background: #3a3e64;
+	padding: 70px 0 87px;
+}
+
+.footer .content h3 {
+	font-family: "Oswald", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+.footer .content p {
+	font-family: "Oswald", sans-serif;
+	font-size: 14px;
+	color: #fff;
+	line-height: 24px;
+}
+
+.footer .content .icon a {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	border: 2px solid #fff;
+	position: relative;
+	-webkit-transition: .3s all ease-in-out;
+	-o-transition: .3s all ease-in-out;
+  transition: .3s all ease-in-out;
+  margin: 3px;
+}
+
+.footer .content .icon a:hover {
+	-webkit-transform: rotate(360deg);
+	    -ms-transform: rotate(360deg);
+	        transform: rotate(360deg);
+}
+
+.footer .content .icon i {
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	-webkit-transition: .3s all ease-in-out;
+	-o-transition: .3s all ease-in-out;
+	transition: .3s all ease-in-out;
+}
+
+.footer .content a:hover i {
+	color: #000;
+}
+
+.footer .f-bottom {
+	padding: 30px 0;
+	background: #313454;
+}
+
+.footer .f-bottom h4 {
+	color: #808080;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.footer .f-bottom p {
+	color: #808080;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.footer .f-bottom i {
+	color: #e84545;
+}
+
+.footer .f-bottom span {
+	color: #fff;
+}
+
+.footer .f-bottom .author{
+  font-family: "Permanent Marker", cursive;
+  font-size: 16px;
+}
+
+
+/* Login */
+
+.login-footer,.reg-footer{
+  display: flex;
+  justify-content: center;
+}
+
+/* details */
+.details-btn:hover{
+  color: #fff;
+}
+.details-warning{
+  padding: 100px 50px;
+}
+.details-warning .btn{
+  margin-top: 20px;
+}
+
+/* profile */
+
+.profile-card{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.spinner-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner{
+  height: 190px;
+  width: 250px;
+  margin: 200px 200px;
+}
